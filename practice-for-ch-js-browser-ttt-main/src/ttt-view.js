@@ -1,5 +1,7 @@
 class View {
   constructor(game, el) {
+    this.game = new Game();
+    this.el = el
   }
   
   setupBoard() {
